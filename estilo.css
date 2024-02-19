@@ -1,0 +1,170 @@
+*{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+}
+
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: black;
+}
+
+@keyframes animacion{
+      0%{background-position: 0 50%;}
+      50%{background-position: 100% 50%;}
+      100%{background-position: 0 50%;}
+}
+
+#logo {
+      margin-right: auto;
+      height: 300px;
+      border-radius: 50px;
+}
+
+h1{
+      text-align: left;
+}
+
+section {
+      padding: 1em;
+      color: white;
+}
+
+.product {
+      border: 5px solid black;
+      border-radius: 50px;
+      padding: 1em;
+      margin: 1em;
+      background-color: white;
+      text-align: center;
+      width: 40%;
+}
+
+form {
+      border: 2px solid white;
+      margin: 1em;
+      padding: 1em;
+      background-color: black;
+      border-radius: 50px;
+}
+
+footer {
+      background-color: black;
+      color: white;
+      padding: 10px;
+      bottom: 0;
+      width: 98,50%;
+}
+
+ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+}
+
+li {
+      margin: 0 15px;
+}
+
+a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+}
+.Productos{
+      border: 2px solid white;
+      border-radius: 25px;
+      padding: 1em;
+      margin: 1em;
+      background: linear-gradient(85deg, darkgreen, green, darkorange, orange, darkviolet, violet, purple, darkred, red, orangered);
+      animation: animacion 8s ease infinite;
+      position: relative;
+      background-size: 400% 400%;
+      text-align: center;
+      color: white;
+}
+
+.ArmaTuPc{
+      border: 2px solid white;
+      border-radius: 25px;
+      padding: 1em;
+      margin: 1em;
+      background: linear-gradient(85deg, darkgreen, green, darkorange, orange, darkviolet, violet, purple, darkred, red, orangered);
+      animation: animacion 8s ease infinite;
+      position: relative;
+      background-size: 400% 400%;
+      text-align: center;
+      color: white;
+}
+
+.Ayuda{
+      border: 2px solid white;
+      border-radius: 25px;
+      padding: 1em;
+      margin: 1em;
+      background: linear-gradient(85deg, darkgreen, green, darkorange, orange, darkviolet, violet, purple, darkred, red, orangered);
+      animation: animacion 8s ease infinite;
+      position: relative;
+      background-size: 400% 400%;
+      text-align: center;
+      color: white;
+}
+
+.Contacto{
+      border: 2px solid white;
+      border-radius: 25px;
+      padding: 1em;
+      margin: 1em;
+      background: linear-gradient(85deg, darkgreen, green, darkorange, orange, darkviolet, violet, purple, darkred, red, orangered);
+      animation: animacion 8s ease infinite;
+      position: relative;
+      background-size: 400% 400%;
+      text-align: center;
+      color: white;
+}
+
+.contenedor {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin: 1px;
+    }
+
+.carrito{
+      border: 2px solid white;
+      border-radius: 25px;
+      padding: 1em;
+      margin: 1em;
+      background: linear-gradient(85deg, darkgreen, green, darkorange, orange, darkviolet, violet, purple, darkred, red, orangered);
+      animation: animacion 8s ease infinite;
+      position: relative;
+      background-size: 400% 400%;
+      color: white;
+      position: fixed;
+      right: 0;
+      top: 0;
+}
+
+.search{
+      padding: 1em;
+      margin: 1em;
+      text-align: center;
+      top: 0;
+      justify-content: center;
+}
+
+header{
+     display: flex;
+     align-items: center;
+     background: linear-gradient(85deg, darkgreen, green, darkorange, orange, darkviolet, violet, purple, darkred, red, orangered);
+     animation: animacion 8s ease infinite;
+     background-size: 400% 400%;
+}
+
+#price{
+     color: black;
+}
